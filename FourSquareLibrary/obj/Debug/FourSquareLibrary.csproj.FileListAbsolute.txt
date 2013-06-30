@@ -1,6 +1,0 @@
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Debug\FourSquareLibrary.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Debug\FourSquareLibrary.pdb
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Debug\Newtonsoft.Json.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Debug\Newtonsoft.Json.xml
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\obj\Debug\FourSquareLibrary.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\obj\Debug\FourSquareLibrary.pdb

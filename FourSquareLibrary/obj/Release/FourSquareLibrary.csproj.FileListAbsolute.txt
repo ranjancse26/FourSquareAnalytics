@@ -1,7 +1,0 @@
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Release\FourSquareLibrary.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Release\FourSquareLibrary.pdb
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Release\Newtonsoft.Json.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\bin\Release\Newtonsoft.Json.xml
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\obj\Release\FourSquareLibrary.dll
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\obj\Release\FourSquareLibrary.pdb
-c:\Vs2013\FourSquareExplorer\FourSquareLibrary\obj\Release\FourSquareLibrary.csprojResolveAssemblyReference.cache
