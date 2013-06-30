@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>FourSquare Analytics</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+         <style>
+            /* styles for layout */
+            html, body {
+                height: 100%;
+            }
+
+            #wrap {
+                min-height: 100%;
+            }
+
+           .footer {
+                position: relative;
+                margin-top: -15px; /* negative value of footer height */
+                height: 15px;
+                clear: both;
+                color: #fff;
+            }
+           
+        </style>
+        <link href="~/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    </head>
+<body>
+    <header>
+        <br />
+        <div class="float-left">
+            <b><p class="site-title">@Html.ActionLink("FourSquare Analytics", "Index", "Home")</p></b>
+        </div>
+        <br />
+        <div class="content-wrapper">
+            <section id="navbar">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container" style="width: auto;">
+                            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </a>
+                            <div class="nav-collapse" style="float:right">
+                                <ul class="nav">
+                                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                                </ul>
+                            </div><!-- /.nav-collapse -->
+                        </div>
+                    </div><!-- /navbar-inner -->
+                </div><!-- /navbar -->
+            </section>
+        </div>
+    </header>
+    <div id="wrap">
+        <div id="main" class="container clear-top">
+            <div class="row">
+                @RenderSection("featured", required: false)
+                <section class="content-wrapper main-content clear-fix">
+                    @RenderBody()
+                </section>
+            </div>
+        </div>
+        </div>
+        <footer class="footer" style="background-color: #1990d5">
+                <div class="container" style="margin:0 auto;">
+                    <div class="row">
+                        <b>&copy; @DateTime.Now.Year - Designed and Developed by Ranjan Dailata</b>
+                    </div>
+                </div>
+            </footer>
+
+            @Scripts.Render("~/bundles/jquery")
+            @RenderSection("scripts", required: false)
+</body>
+</html>
