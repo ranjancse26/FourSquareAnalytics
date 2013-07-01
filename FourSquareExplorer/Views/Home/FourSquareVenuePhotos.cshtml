@@ -1,0 +1,7 @@
+﻿@model IEnumerable<FourSquareExplorer.Models.FourSquareVenuePhotos>
+
+@foreach (var photo in Model)
+{
+    <img src="@photo.PhotoUrl" height="200" width="200"/>
+}
+
